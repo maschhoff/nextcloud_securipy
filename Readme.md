@@ -1,4 +1,4 @@
-# Nextcloud Securipy - Nextcloud Security Checker
+# Nextcloud Securipy - Scheduled Nextcloud Security Checker
 
 This it an automated security checker for nextcloud.
 Based on the official scan API from nextcloud it checks your url and gives you a notification if there are security issues.
