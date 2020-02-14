@@ -11,6 +11,6 @@ Based on the official scan API from nextcloud it checks your url and gives you a
 ### Run as Docker
 * git clone this repository to your machine
 * edit the docker.sh file with your folder mapping to the ncsecuripy release
-* use the docher.sh `sh docker.sh` file to run the docker container. It will create run and remove a simple and small alpine based python3 docker. It will mount the folder and execute the run.sh
+* use the docker.sh `sh docker.sh` file to run the docker container. It will create run and remove a simple and small alpine based python3 docker. It will mount the folder and execute the run.sh
 
 
