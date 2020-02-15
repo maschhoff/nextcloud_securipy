@@ -14,4 +14,16 @@ Based on the official scan API from nextcloud it checks your url and gives you a
 * edit the docker.sh file with your folder mapping to the ncsecuripy release
 * use the docker.sh `sh docker.sh` file to run the docker container. It will create run and remove a simple and small alpine based python3 docker. It will mount the folder and execute the run.sh
 
+### Running on Unraid
 
+simply got to /mnt/user/appdata/ and run
+
+`git clone https://github.com/maschhoff/nextcloud_securipy.git`
+
+Edit the config.json inside the data folder with your url and push api tokens
+Than go to user scripts and create a new script that runs daily/weekls with
+
+```
+#!/bin/bash
+docker run --rm -v /mnt/user/appdata/nextcloud_securipy:/ncsecuripy frolvlad/alpine-python3 sh /ncsecuripy/run.sh
+```
