@@ -27,3 +27,5 @@ Than go to user scripts and create a new script that runs daily/weekls with
 #!/bin/bash
 docker run --rm -v /mnt/user/appdata/nextcloud_securipy:/ncsecuripy frolvlad/alpine-python3 sh /ncsecuripy/run.sh
 ```
+###Test on Repl.it
+[![Run on Repl.it](https://repl.it/badge/github/maschhoff/nextcloud_securipy)](https://repl.it/github/maschhoff/nextcloud_securipy)
